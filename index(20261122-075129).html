@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8dce6">
+  <title>Happy 20th Birthday, Siti Amira Zara</title>
+  <style>
+    :root {
+      --pink: #e9a9bd;
+      --deep: #8f5369;
+      --cream: #fff9f7;
+      --ink: #604653;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at 15% 12%, #fff 0 2px, transparent 3px),
+        radial-gradient(circle at 85% 25%, #fff 0 2px, transparent 3px),
+        linear-gradient(145deg, #f9e6eb, #fff8f3 52%, #f4dce5);
+      background-size: 90px 90px, 120px 120px, auto;
+    }
+    .hero {
+      min-height: 90vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 56px 22px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before, .hero::after {
+      content: "♡";
+      position: absolute;
+      color: #d88da8;
+      opacity: .28;
+      font-size: clamp(90px, 18vw, 190px);
+      animation: float 5s ease-in-out infinite;
+    }
+    .hero::before { left: 5%; top: 12%; }
+    .hero::after { right: 6%; bottom: 8%; animation-delay: 1.5s; }
+    .hero-content { max-width: 760px; position: relative; z-index: 1; }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .28em;
+      font: 600 11px/1.5 Arial, sans-serif;
+      color: var(--deep);
+    }
+    h1 {
+      margin: 18px 0 8px;
+      font-size: clamp(42px, 9vw, 82px);
+      line-height: .98;
+      font-weight: 500;
+      color: #9b5e76;
+    }
+    .age {
+      font-size: clamp(20px, 4vw, 30px);
+      letter-spacing: .16em;
+      color: #b77a91;
+    }
+    .subtitle {
+      margin: 24px auto 0;
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 480px;
+    }
+    .scroll {
+      display: inline-block;
+      margin-top: 34px;
+      padding: 13px 23px;
+      border: 1px solid #d9a1b4;
+      border-radius: 999px;
+      color: var(--deep);
+      text-decoration: none;
+      font: 12px Arial, sans-serif;
+      letter-spacing: .12em;
+      transition: .25s;
+    }
+    .scroll:hover { background: #f4dce5; transform: translateY(-2px); }
+    main { padding: 0 18px 70px; }
+    .letter {
+      max-width: 780px;
+      margin: -24px auto 0;
+      position: relative;
+      background: rgba(255, 253, 251, .9);
+      border: 1px solid rgba(196, 135, 157, .3);
+      border-radius: 22px;
+      padding: clamp(26px, 6vw, 58px);
+      box-shadow: 0 18px 55px rgba(129, 76, 96, .10);
+    }
+    .letter-label {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: .24em;
+      font: 11px Arial, sans-serif;
+      color: #b77a91;
+      margin-bottom: 30px;
+    }
+    .message {
+      font-size: clamp(16px, 2.4vw, 19px);
+      line-height: 1.95;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    .message p { margin: 0 0 27px; }
+    .message p:last-child { margin-bottom: 0; }
+    .divider {
+      text-align: center;
+      color: #c985a0;
+      letter-spacing: .5em;
+      margin: 35px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 38px 20px 55px;
+      color: #a36e83;
+      font-size: 14px;
+    }
+    .heart { color: #c87998; font-size: 20px; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(-8deg); }
+      50% { transform: translateY(-16px) rotate(8deg); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="eyebrow">A little something for your special day</div>
+      <h1>Happy Birthday</h1>
+      <div class="age">SITI AMIRA ZARA · 20</div>
+      <p class="subtitle">A day to celebrate you, your journey, and all the beautiful things still waiting ahead.</p>
+      <a class="scroll" href="#letter">OPEN YOUR LETTER ↓</a>
+    </div>
+  </header>
+
+  <main id="letter">
+    <article class="letter">
+      <div class="letter-label">A birthday letter</div>
+      <div class="message">
+        <p>hope your special day is as incredible as you are!, wishing you a birthday filled with love, fun, and surprise, wishing you a day that's as amazing as you are. hope today brings you everything you've been wishing for, sending you lots of love and good vibes on your big day!. may this year bring you everything you've been dreaming of</p>
+
+        <div class="divider">♡ · ♡ · ♡</div>
+
+        <p>cieee udah 20th aja niehhh, perasaan baru kemarin dehh kamu ultahhh yang ke19th cepett banget yaawww, aku cuma mau bilanggg kalo aku bangga bangett sama kamu, dann selalu banggaaa. kamuuu bisa lakuin apapun yang kamuuu mauu sendiri, kamu bisa lakuin banyak hal buat diri kamuuu, kamu selaluuu berusaha itu udahh keren banget bagi aku tauuu, kamu hebat banget sayanggg
+diantaraaa banyaknya sedihhh bahkannn sempit yanggg menghampirumuu, semoga kamuuu selalu diberi alasan-alasan kecil yang mampu membangkitkan semangatmu untuk teruus memperjuangkan mimpiii baikmu. segala lelahh, sakitt, yangg selalu kamuu hadapi. semoga kamu selalu berterimakasih kepada dirimu yang hebatt ituu 🥺</p>
+
+        <div class="divider">♡ · ♡ · ♡</div>
+
+        <p>maafff tidak bisa mengucapkan dan merayakan secara langsung dihadapanmu, tapi segenap hati ingin mengucapkan, selamat bertambah usia semoga hal baik selalu beriringan denganmu, semoga semesta senantiasa berpihak padamu, semoga jalanmu untuk mencapai masa depan yang cerah di permudahkan, teruslah tumbuh, teruslah melangkah dan berbahagia, selamat berkelana, i will support u from afar</p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="heart">♡</div>
+    Made with love, just for Siti Amira Zara.
+  </footer>
+</body>
+</html>
